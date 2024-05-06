@@ -7,7 +7,6 @@
   
 
 body {
-    height: 3065px;
     margin: 0;
 }
 
@@ -16,34 +15,32 @@ header {
     background-color: #CCD3CA;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    display: flex; 
-    justify-content: space-between; 
     align-items: center; 
     padding: 0 20px; 
     text-align: right; 
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
-.user {
-    margin-left: auto;
-    margin-right: 20px;
-}
-
 .logo img {
     width: 108px;
     height: 116px;
     margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner {
+    display: grid;
+    grid-template-columns: 1fr 400px;
     width: 1126px;
     height: 584px;
     background-color: #CCD3CA;
     margin-left: 157px;
-    margin-right: 157px;
     margin-top: 200px;
     border-radius: 15px;
     box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    align-items: center;
     
 }
 
@@ -51,7 +48,6 @@ header {
     font-family: "Righteous";
     font-size: 32px;
     text-align: center;
-    margin-left: 563px;
     margin-right: 71px;
     margin-top: 63px;
     margin-bottom: 93px;
@@ -61,14 +57,61 @@ header {
     width: 362px !important;
     height: 362px !important;
     margin-left: 134px;
-    margin-right: 630px;
-    margin-top: 111px;
+
+}
+
+.template {
+    display: grid;
+    grid-template: 
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8"
+    ;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.vector1 {
+    margin-top: 200px;
+}
+
+.vector2 {
+    margin-top: 90px;
 }
 
 footer {
     background-color: #CCD3CA;
     height: 290px;
-    margin-top: 2789px;
+    margin-top: 500px;
     text-align: center;
 }
 
