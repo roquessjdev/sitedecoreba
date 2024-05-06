@@ -20,7 +20,7 @@ mas a maior parte clean
 
 
 branco #FDFCFC
-cinza claro #B5C0D0
+cinza claro #CCD3CA
 laranjaNeon #F35B25
 
 pagina rolavel coluna 

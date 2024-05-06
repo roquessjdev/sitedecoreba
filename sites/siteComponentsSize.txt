@@ -1,0 +1,4 @@
+Site - w1440/h3065
+header - w1440/h150
+bannerC - w1126/h584
+footer - w1440/h290
