@@ -1,0 +1,33 @@
+body {
+    width: 1440px;
+    height: 3000px;
+}
+
+#carouselExampleDark {
+
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 900px !important;
+    height: 400px !important;
+}
+
+.carousel-item img {
+    border-radius: 30px !important;
+}
+
+.carousel-control-prev-icon {
+    color: yellow !important;
+    background-image: url(img/prev.png) !important;
+    filter: invert(0) grayscale(0) !important;
+}
+
+.carousel-control-next-icon {
+    color: yellow !important;
+    background-image: url(img/next.png) !important;
+    filter: invert(0) grayscale(0) !important;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease !important;
+}
+
