@@ -16,18 +16,9 @@ body {
 }
 
 .carousel-control-prev-icon {
-    color: yellow !important;
     background-image: url(img/prev.png) !important;
-    filter: invert(0) grayscale(0) !important;
 }
 
 .carousel-control-next-icon {
-    color: yellow !important;
     background-image: url(img/next.png) !important;
-    filter: invert(0) grayscale(0) !important;
 }
-
-.carousel-item {
-    transition: transform 0.5s ease !important;
-}
-
