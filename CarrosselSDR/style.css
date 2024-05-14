@@ -3,12 +3,12 @@ body {
     height: 3000px;
 }
 
-#carouselExampleDark {
+#carouselExampleFade {
 
     margin-top: 200px;
     margin-left: 200px;
-    width: 900px !important;
-    height: 400px !important;
+    width: 1688px !important;
+    height: 730px !important;
 }
 
 .carousel-item img {
@@ -21,4 +21,18 @@ body {
 
 .carousel-control-next-icon {
     background-image: url(img/next.png) !important;
+}
+
+.carousel-control-prev {
+    display: flex !important;
+    align-items: flex-end !important;
+    margin-left: 680px;
+    margin-bottom: 40px;
+}
+
+.carousel-control-next {
+    display: flex !important;
+    align-items: flex-end !important;
+    margin-right: 680px;
+    margin-bottom: 40px;
 }
